@@ -1,22 +1,64 @@
 h1 {
   display: flex;
-  justify-content: center ;
+  justify-content: center;
+}
+
+h5 {
+  background-color: grey;
+  color: yellow;
+  width: 100%;
+}
+
+p {
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid lightblue;
 }
 
 .cards--container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin: 10px;
 }
 
 .single--card {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 15px;
+  border: 1px solid lightblue;
+  box-shadow: 5px 10px rgb(194, 232, 245);
 }
 
 img {
-    width: 222px;
-    height: 250px;
-    margin: 20px;
+  width: 222px;
+  height: 230px;
+}
+
+.soldOut {
+  position: relative;
+  padding-bottom: 20px;
+  padding-right: 40px;
+}
+
+#pinkCard {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 10px
+}
+
+#soldOutImage {
+  padding-top: 30px;
+  height: 148px;
+  width: 150px;
+  left: 44px;
+  top: 5px;
 }
